@@ -1,0 +1,51 @@
+1.Pengenalan Git
+Git adalah singkatan dari Group Inclusive Tour. Git merupakan version control system yang gratis dan juga open source. 
+Git dirancang untuk menangani segala project baik itu project besar atau project sederhana. Git memungkinkan para pengembang untuk bekerja 
+secara bersama-sama pada proyek yang sama dan melacak setiap perubahan yang dilakukan pada source code. Terdapat 2 sistem git, yaitu centralized dan distributed
+	- Centralized
+	  Git centralized berkerja hanya dengan menggunakan satu server yang berfungsi untuk menyimpan data dari project. 
+	  Sistem git ini membutuhkan koneksi network untuk dapat mengakses data dari project. Selain itu, ketika terjadi sesuatu pada server seperti server corrupt,
+	  maka data project yang ada di dalam server akan berpotensi untuk hilang juga.
+	- Distributed
+	  Git distributed bekerja dengan menyimpan data project di lokal dan juga di server. 
+	  Sehingga lebih aman ketika terjadi sesuatu pada server seperti server corrupt karena sudah terdapat backup dari data project di lokal.
+
+2. Konsep Dasar Git
+
+-Version Control System (VCS): Git adalah contoh dari VCS, yang memungkinkan Anda untuk melacak perubahan dalam kode sumber dari waktu ke waktu. 
+	Ini sangat berguna dalam tim pengembangan untuk bekerja secara bersamaan.
+
+-Repository (Repo): Ini adalah tempat penyimpanan proyek yang mengandung seluruh sejarah perubahan kode. Ada repository lokal (di komputer Anda) 
+	dan repository jarak jauh (seperti GitHub, GitLab).
+
+-Commit: Saat Anda membuat perubahan pada kode, Anda melakukan commit. Ini adalah snapshot dari kode pada titik waktu tertentu beserta pesan 
+	yang menjelaskan perubahan.
+
+-Branch: Anda dapat membuat cabang (branch) dari repository utama untuk bekerja pada fitur atau perbaikan tertentu tanpa mempengaruhi kode di branch utama.
+
+-Merge dan Pull Request: Setelah bekerja di branch, Anda dapat menggabungkan (merge) perubahan kembali ke branch utama. Di platform seperti GitHub, 
+	Anda membuat pull request untuk meminta review sebelum menggabungkan perubahan.
+
+3. Keuntungan dan Manfaat
+
+- Collaboration (Kolaborasi): Git memungkinkan tim pengembangan untuk bekerja bersama di repository yang sama tanpa menimbulkan konflik.
+
+- Tracking Changes (Pelacakan Perubahan): Anda bisa melihat sejarah perubahan kode, siapa yang melakukan perubahan, dan mengapa.
+
+- Branching Strategy (Strategi Cabang): Dengan branch, Anda dapat mengembangkan fitur baru tanpa mengganggu kode utama, dan kemudian menggabungkannya kembali.
+
+- Backup dan Restore: Git menyimpan riwayat kode, sehingga jika ada masalah, Anda dapat kembali ke versi sebelumnya.
+
+4.  Alat dan Platform Terkait
+
+- GitHub: Platform berbasis web yang memudahkan hosting dan kolaborasi proyek Git. Ini juga menyediakan alat untuk melacak masalah dan mengelola proyek.
+
+- GitLab: Alternatif untuk GitHub, dengan fitur-fitur serupa serta pilihan untuk penggunaan self-hosted.
+
+5. Kesimpulan
+
+Git adalah alat yang kuat untuk mengelola perubahan dalam pengembangan perangkat lunak. Dengan mengerti konsep dasar dan menggunakannya dengan benar, 
+dapat meningkatkan kolaborasi tim, melacak perubahan kode, dan mengelola proyek dengan lebih efisien. 
+Dengan dukungan dari platform seperti  GitHub, GitLab, Git telah menjadi bagian dari pengembangan perangkat lunak modern.
+
+	
